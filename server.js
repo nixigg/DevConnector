@@ -4,7 +4,7 @@ const bodyparser = require('body-parser');
 const app = express();
 
 const db = require('./config/keys').mongoURI;
-const users = require('.routes/api/users');
+const users = require('./routes/api/users');
 const posts = require('./routes/api/posts');
 const profile = require('./routes/api/profile');
 
